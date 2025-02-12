@@ -1,0 +1,66 @@
+.users-list-container {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-list-container h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-table th, 
+  .users-table td {
+    border: 1px solid #ecf0f1;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .users-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .action-buttons button:first-child {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  /* Input styles during editing */
+  .users-table input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
